@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 const FetchMapFilter = () => {
   const [userData, setUserData] = useState(null);
   const [inputFilter, setInputFilter] = useState("");
-  const [filterUsers, setFilterUsers] = useState(null);
 
   let api = "https://jsonplaceholder.typicode.com/users";
   useEffect(() => {
